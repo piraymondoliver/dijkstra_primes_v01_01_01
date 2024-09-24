@@ -21,7 +21,7 @@ def Dijkstra_nth_prime(N):
     primes_l = [2]              # Initialize first element of primes list to 2
     multiples_l = [0] * N       # Initialize '0' in every element of multiples list (N-elements)
 
-    #print(2)                    # print 2 to terminal (the first prime number)
+    print(2)                    # print 2 to terminal (the first prime number)
 
     for i in range(2, N + 1):   # loop takes on values from 2 to N
         while True:
@@ -44,7 +44,7 @@ def Dijkstra_nth_prime(N):
                 break
 
         primes_l.append(cur_prime)     # append the nth prime to the list
-        #print(cur_prime)               # print the current nth prime
+        print(cur_prime)               # print the current nth prime
 
     return cur_prime                   # return the value of the current prime through the function
 ####
@@ -71,7 +71,7 @@ def Dijkstra_first_n_primes(N):
     primes_l = [2]              # Initialize first element of primes list to 2
     multiples_l = [0] * N       # Initialize '0' in every element of multiples list (N-elements)
 
-    #print(2)                    # print 2 to terminal (the first prime number)
+    print(2)                    # print 2 to terminal (the first prime number)
 
     for i in range(2, N + 1):   # loop takes on values from 2 to N
         while True:
@@ -94,7 +94,7 @@ def Dijkstra_first_n_primes(N):
                 break
 
         primes_l.append(cur_prime)     # append the nth prime to the list
-        #print(cur_prime)               # print the current nth prime
+        print(cur_prime)               # print the current nth prime
 
     return primes_l                   # return the list of N primes through the function
 ####
